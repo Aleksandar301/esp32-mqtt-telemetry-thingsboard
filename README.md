@@ -21,8 +21,8 @@ This project demonstrates WiFi connectivity, MQTT communication, JSON telemetry 
 
 ## System Architecture
 
-PIR Sensor ─┐  
-            ├── ESP32 ── WiFi ── MQTT ── ThingsBoard Cloud ── Dashboard  
-Ultrasonic ─┘  
+PIR Sensor  ─┐  
+├── ESP32 ── WiFi ── MQTT ── ThingsBoard Cloud ── Dashboard  
+Ultrasonic  ─┘  
 
-The ESP32 reads sensor values, formats them into JSON, and publishes telemetry to:
+The ESP32 reads sensor values, formats them into JSON, and publishes telemetry to ThingsBoard.
