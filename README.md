@@ -6,12 +6,12 @@ This project demonstrates WiFi connectivity, MQTT communication, JSON telemetry 
 
 ---
 
-## 🚀 Features
+## Features
 
 - WiFi connectivity (ESP32)
 - MQTT communication (TCP, port 1883)
 - PIR motion detection
-- Ultrasonic distance measurement (HC-SR04)
+- Ultrasonic distance measurement 
 - JSON-formatted telemetry
 - Automatic MQTT reconnection
 - 1-second telemetry publishing interval
@@ -19,7 +19,7 @@ This project demonstrates WiFi connectivity, MQTT communication, JSON telemetry 
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 PIR Sensor ─┐  
             ├── ESP32 ── WiFi ── MQTT ── ThingsBoard Cloud ── Dashboard  
